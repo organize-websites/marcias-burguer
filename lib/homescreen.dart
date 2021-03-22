@@ -847,7 +847,7 @@ _launchURL3() async {
 }
 
 _launchURL4() async {
-  const url = 'https://www.google.com/maps/place/Av.+Jamil+Said+Ahmed+Salim,+479,+Barrinha+-+SP,+14860-000/@-21.1917528,-48.1577328,17z/data=!3m1!4b1!4m5!3m4!1s0x94b9747970f86521:0x1f3218a62a3d2049!8m2!3d-21.1917528!4d-48.1555441';
+  const url = 'https://www.google.com/maps/place/Av.+Jamil+Said+Ahmed+Salim,+505+-+Barrinha,+SP,+14860-000/@-21.1920163,-48.1552303,18.37z/data=!4m5!3m4!1s0x94b9747bd844bb81:0x99cbe47f9704f87d!8m2!3d-21.19171!4d-48.1547259';
   if (await canLaunch(url)) {
     await launch(url);
   } else {
